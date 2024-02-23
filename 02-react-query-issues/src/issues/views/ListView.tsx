@@ -20,7 +20,7 @@ export const ListView = () => {
         {issuesQuery.isLoading ? (
           <LoadingIcon />
         ) : (
-          <IssueList issues={issuesQuery.data || []} />
+          <IssueList issues={issuesQuery.data ?? []} />
         )}
       </div>
 
