@@ -21,7 +21,6 @@ export const IssueView = () => {
       <div className="col-12 mb-3">
         <Link to="./issues/list">Go Back</Link>
       </div>
-
       {/* Primer comentario */}
       <IssueComment body={comment1} />
 
